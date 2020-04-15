@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'AmericanOak-Script ';
+}
+
+.knoppen {
+    background-color: #FDEBE6;
+    border-radius: 100%;
+}
+
+#loader {
+    position: absolute;
+    z-index: 200;
+    top: 250px;
+    left: 40%;
+    right: 40%;
+}
+
+#knop1 {
+    max-width: 80px;
+    max-height: 80px;
+    z-index: 100;
+    position: absolute;
+    left: 30%;
+    bottom: 50px;
+}
+
+#knop2 {
+    max-width: 80px;
+    max-height: 80px;
+    z-index: 100;
+    position: absolute;
+    left: 50%;
+    right: -50%;
+    bottom: 50px;
+}
+
+#knop3 {
+    max-width: 80px;
+    max-height: 80px;
+    z-index: 100;
+    position: absolute;
+    left: 70%;
+    bottom: 50px;
+}
+
+#knop1h {
+    max-height: 80px;
+    max-width: 80px;
+    position: absolute;
+    left: 30%;
+    bottom: -100px;
+}
+
+#knop2h {
+    max-height: 80px;
+    max-width: 80px;
+    position: absolute;
+    left: 50%;
+    bottom: -100px;
+}
+
+#knop3h {
+    max-height: 80px;
+    max-width: 80px;
+    position: absolute;
+    left: 70%;
+    bottom: -100px;
+}
+
+img {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    margin: auto;
+}
+
+.object {
+    max-height: 1400px;
+    max-width: 1400px;
+    z-index: 80;
+    position: absolute;
+    top: 90px;
+}
+
+.transitions {
+    min-width: 100%;
+    font-family: 'Raleway', sans-serif;
+    z-index: 102;
+    position: absolute;
+}
+
+audio {
+    position: absolute;
+    z-index: 200;
+    display: hidden;
+}
